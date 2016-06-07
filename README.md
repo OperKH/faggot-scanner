@@ -1,0 +1,2 @@
+# faggot-scanner
+Faggot Scanner
