@@ -6,12 +6,15 @@
 </head>
 <body>
     <script>
-        let status = confirm('Are you faggot?');
-        if (!status) {
-            alert('Faggot\'s answer!');
-        } else {
-            alert('Ok');
-        }
+        'use strict';
+        (() => {
+            const status = confirm('Are you faggot?');
+            if (!status) {
+                alert('Faggot\'s answer!');
+            } else {
+                alert('OK.');
+            }
+        })()
     </script>
 </body>
 </html>
